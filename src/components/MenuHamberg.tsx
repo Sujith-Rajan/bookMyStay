@@ -19,8 +19,9 @@ const MenuHamberg: React.FC<MenuHambergProps> = ({ menu, setMenu }) => {
             </button>
             <nav className="flex flex-col gap-4 mt-12 text-lg ">
                 <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2' >Home</Link>
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>About</Link>
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Contact</Link>
+                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>About Us</Link>
+                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Facilities</Link>
+                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Contact Us</Link>
             </nav>
         </div>
     )

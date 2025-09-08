@@ -9,7 +9,7 @@ const videos = [
 const Video = () => {
     return (
         <div className='w-full p-4 felx justify-center'>
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-500 mb-10">
+            <h2 className='text-3xl md:text-4xl font-bold text-gray-500 mb-4 tracking-wider text-center'>
             Our Video Gallery
             </h2>
 

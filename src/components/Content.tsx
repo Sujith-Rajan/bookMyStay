@@ -16,7 +16,7 @@ const HomeStaySection = () => {
         "/resort4.jpg",
     ];
     return (
-        <div className='w-full py-16 px-4 bg-gray-50 shadow-gray-100 shadow-xl shadow-'>
+        <div className='w-full py-16 px-4 bg-gray-100 shadow-lg shadow-blue-400'>
             <div className='max-w-6xl mx-auto flex flex-col md:flex-row gap-8 items-center'>
                 <div className='w-full md:w-1/2'>
                     <Swiper
@@ -25,7 +25,7 @@ const HomeStaySection = () => {
                         pagination={{
                             clickable: true,
                             renderBullet: (index, className) => {
-                                return `<span class="${className} !bg-gray-800 !rounded-full !mx-1 !p-2"></span>`;
+                                return `<span class="${className} !bg-blue-800 !rounded-full !mx-1 !p-2"></span>`;
                             },
                         }}
                         spaceBetween={10}
@@ -50,7 +50,7 @@ const HomeStaySection = () => {
                 </div>
 
                 <div>
-                    <h2 className='text-3xl md:text-4xl font-bold text-gray-800 mb-4 tracking-wider text-center'>Welcome to Our Cozy Homestay</h2>
+                    <h2 className='text-3xl md:text-4xl font-bold text-gray-500 mb-4 tracking-wider text-center'>Welcome to Our Cozy FarmStay</h2>
                     <p className='text-gray-600 text-lg md:text-xl tracking-wider mb-6'>Experience a serene stay surrounded by nature and comfort. Our homestay offers beautifully designed rooms, local flavors, and a relaxing atmosphere that makes you feel right at home.</p>
                     <button className='px-6 py-3 bg-blue-700 text-white rounded-md w-fit hover:bg-blue-800 transition cursor-pointer'>
                         Book Your Stay

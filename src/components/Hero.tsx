@@ -7,7 +7,7 @@ import { ReactTyped } from 'react-typed'
 
 const Hero = () => {
     return (
-        <div className="relative w-full h-[90lvh] md:h-[90lvh] shadow-yellow-300 shadow-xl">
+        <div className="relative w-full h-[90lvh] md:h-[90lvh] shadow-green-300 shadow-xl">
             <Image src='/heroBg.jpg' alt='hero section' fill
                 className="object-cover"
                 priority />
@@ -16,7 +16,7 @@ const Hero = () => {
                     <h1 className="text-white text-4xl md:text-6xl font-bold">
                         <ReactTyped
                             strings={[
-                                '<span class="text-red-700">F</span>ind Your Home away from Home',
+                                '<span class="text-red-700">mFarm</span> – A Green Haven of Nature, Cultivation, and Community',
                                 '<span class="text-red-700">B</span>ook Your Perfect Stay',
                             ]}
                             typeSpeed={70}
