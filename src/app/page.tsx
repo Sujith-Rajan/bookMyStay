@@ -8,6 +8,7 @@ import Links from "@/components/Links";
 import About from "@/components/About";
 import Facilities from "@/components/Facilities";
 import { Element } from "react-scroll"
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -24,10 +25,9 @@ export default function Home() {
       </Element>
       <Video />
       <Testimonial />
-      <Links />
-      <Footer />
-
-
+      <Element id="contact" name="contact">
+        <Contact />
+      </Element>
     </div>
   );
 }

@@ -10,7 +10,7 @@ const Facilities = () => {
             <div className='container mx-auto p-6'>
                 <h1 className='text-3xl md:text-4xl font-bold text-gray-500 mb-4 tracking-wider text-center'>mFarm Facilities & Activities</h1>
                 <Tabs defaultValue="facilities" className="w-full flex justify-between">
-                    <TabsList className="grid grid-cols-5 mb-6">
+                    <TabsList className="grid grid-cols-5 gap-6 mb-6">
                         <TabsTrigger value="facilities" className="bg-gray-300 cursor-pointer">
                             <Home className="w-4 h-4 mr-2 hidden md:block" />
                             Facilities

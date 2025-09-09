@@ -1,4 +1,4 @@
-import { Instagram, Youtube } from 'lucide-react'
+import { Instagram, PhoneCall, Youtube } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -12,8 +12,6 @@ const Links = () => {
                     <div className="flex flex-col gap-2">
                         <h2 className="text-gray-400 ">Company</h2>
                         <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">About Us</Link>
-                        <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Press</Link>
-                        <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Work with Us</Link>
                         <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Contact Us</Link>
                     </div>
 
@@ -22,18 +20,20 @@ const Links = () => {
                         <h2 className="text-gray-400 ">Explore</h2>
                         <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Reviews</Link>
                         <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Blog</Link>
-                        <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Find Guests</Link>
-                        <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Inspire Me</Link>
                     </div>
 
                     {/* Customer Service */}
                     <div className="flex flex-col gap-2">
                         <h2 className="text-gray-400 ">Customer Service</h2>
-                        <Link href="/" className="text-gray-600 hover:text-white transition-colors">Need Help?</Link>
+                        <Link href="/" className="text-gray-600 hover:text-gray-400 transition-colors">Need Help?</Link>
+                        <div className='flex gap-2'>
+                            <PhoneCall className='w-4 text-gray-600' />
+                            <h3 className='text-gray-600'>+91 9XXXXXXXXX</h3>
+                        </div>
                     </div>
                     {/* Social */}
                     <div className='flex gap-2'>
-                        <Instagram className='cursor-pointer'/>
+                        <Instagram className='cursor-pointer' />
                         <Youtube className='cursor-pointer' />
                     </div>
                 </div>

@@ -1,10 +1,10 @@
 import { X } from 'lucide-react'
-import Link from 'next/link'
+import { Link } from "react-scroll";
 import React from 'react'
 
 type MenuHambergProps = {
     menu: boolean,
-    setMenu: (valu:boolean) => void,
+    setMenu: (valu: boolean) => void,
 }
 
 const MenuHamberg: React.FC<MenuHambergProps> = ({ menu, setMenu }) => {
@@ -18,10 +18,22 @@ const MenuHamberg: React.FC<MenuHambergProps> = ({ menu, setMenu }) => {
                 <X size={28} />
             </button>
             <nav className="flex flex-col gap-4 mt-12 text-lg ">
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2' >Home</Link>
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>About Us</Link>
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Facilities</Link>
-                <Link href="/" onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Contact Us</Link>
+                <Link to="hero"
+                    smooth={true}
+                    duration={600}
+                    offset={-80} onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2' >Home</Link>
+                <Link to="about"
+                    smooth={true}
+                    duration={600}
+                    offset={-80} onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>About Us</Link>
+                <Link to="facilities"
+                    smooth={true}
+                    duration={600}
+                    offset={-80} onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Facilities</Link>
+                <Link to="contact"
+                    smooth={true}
+                    duration={600}
+                    offset={-80} onClick={() => setMenu(false)} className='hover:bg-gray-50 hover:text-black transition p-2'>Contact Us</Link>
             </nav>
         </div>
     )
