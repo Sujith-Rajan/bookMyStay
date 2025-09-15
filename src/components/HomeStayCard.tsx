@@ -8,7 +8,7 @@ export default function HomeStayCard() {
         alt="Kerala Tropical Homestay"
         width={1200}
         height={600}
-        className="w-full h-96 object-cover"
+        className="w-full h-96 object-cover p-1"
       />
       <div className="p-6">
         <h2 className="text-2xl font-bold text-gray-800">

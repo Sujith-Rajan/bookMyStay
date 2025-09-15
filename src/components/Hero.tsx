@@ -12,7 +12,7 @@ const Hero = () => {
                 priority />
             <div className="absolute inset-0 flex justify-center items-center p-4">
                 <div className="flex flex-col items-center gap-8 md:gap-12  text-center">
-                    <h1 className="text-white text-3xl md:text-4xl font-bold">
+                    <h1 className="text-white text-xl  md:text-2xl lg:text-3xl font-bold">
                         mFarm- A Green Haven of Nature, Cultivation, and Community,
                         <div>Book Your Perfect Stay,</div>
                         
