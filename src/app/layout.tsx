@@ -13,8 +13,8 @@ const poppins = Poppins({
 
 
 export const metadata = {
-  title: "Homestay Booking",
-  description: "A simple Next.js homestay website",
+  title: "Homestay Booking - mFarm",
+  description: "Best Homestay booking at Kottayam",
 };
 
 export default function RootLayout({

@@ -16,7 +16,7 @@ const HomeStaySection = () => {
         "/resort4.jpg",
     ];
     return (
-        <div className='w-full py-16 px-4 bg-gray-100 shadow-lg shadow-blue-400'>
+        <div className='w-full py-16 px-4 bg-gray-100 shadow-lg shadow-blue-100'>
             <div className='max-w-6xl mx-auto flex flex-col md:flex-row gap-8 items-center'>
                 <div className='w-full md:w-1/2'>
                     <Swiper

@@ -9,6 +9,7 @@ import About from "@/components/About";
 import Facilities from "@/components/Facilities";
 import { Element } from "react-scroll"
 import Contact from "@/components/Contact";
+import HomeStayCard from "@/components/HomeStayCard";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
       </Element>
       <HomeStaySection />
+      <HomeStayCard />
       <Element id="about" name="about">
         <About />
       </Element>
